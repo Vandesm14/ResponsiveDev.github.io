@@ -1,10 +1,10 @@
 <style>
-  h1 {
-    color: purple;
+  main {
+    width: 100%;
+    height: 100%;
 
-    font-weight: 200;
-    font-size: 50px;
+    background-color: #212529;
   }
 </style>
 
-<h1>Hey, Leon!</h1>
+<main></main>
