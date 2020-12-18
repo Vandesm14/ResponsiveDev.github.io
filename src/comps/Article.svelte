@@ -11,9 +11,8 @@ div {
   align-items: right;
   flex-direction: column;
   justify-content: center;
-  padding: 0 10vw;
-  height: 70vh;
-	color: white;
+	padding: 0 10vw;
+	color: #FAFAFA;
 	background-color: #212121;
   font-size: 1.4rem;
 }
@@ -37,7 +36,7 @@ a {
   width: max-content;
   border-radius: 1000px;
   background-color: #5a507e;
-  color: white;
+  color: #FAFAFA;
   text-decoration: none;
   transition: 150ms ease-out;
 }

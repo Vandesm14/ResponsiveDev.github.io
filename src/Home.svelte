@@ -9,9 +9,7 @@
 		href: ''
 	};
 	let about = {
-		title: 'About Us',
-		button: 'Join Us',
-		href: ''
+		title: 'About Us'
 	};
 </script>
 

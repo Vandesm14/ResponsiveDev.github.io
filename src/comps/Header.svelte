@@ -13,7 +13,7 @@ div {
   justify-content: center;
   padding: 4vh 10vw;
   background-color: #5a507e;
-  color: white;
+  color: #FAFAFA;
   text-align: center;
   font-size: 1.6rem;
 }
@@ -26,7 +26,7 @@ a {
   padding: 10px 20px;
   width: max-content;
   border-radius: 1000px;
-  background-color: white;
+  background-color: #FAFAFA;
   color: #5a507e;
   text-decoration: none;
   transition: 150ms ease-out;
