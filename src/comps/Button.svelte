@@ -1,5 +1,5 @@
 <script>
-	export let href = '';
+	export let href = '', icon = '', blank = false;
 </script>
 
 <style>
@@ -24,8 +24,24 @@ a:hover {
 a:empty {
   display: none;
 }
+
+img {
+	display: block;
+  height: calc(1.2rem + 18px);
+  border-radius: 1000px;
+  text-decoration: none;
+	transition: 150ms ease-out;
+	margin-right: 6px;
+}
 </style>
 
-<a href="{href}">
+{#if href}
+<a href={href} target={blank ? '_blank' : ''}>
+	{#if icon}
+	<img src={icon} alt="icon">
+	<span><slot></slot></span>
+	{:else}
 	<slot></slot>
+	{/if}
 </a>
+{/if}

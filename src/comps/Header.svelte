@@ -2,8 +2,7 @@
 	import Button from './Button.svelte';
 	export let title = '', 
 	description = '',
-	button = '',
-	href = '';
+	button = {};
 </script>
 
 <style>
@@ -41,5 +40,5 @@ p {
 		<slot></slot>
 	</p>
 	{/if}
-	<Button {href}>{button}</Button>
+	<Button {...button}>{button.title}</Button>
 </div>

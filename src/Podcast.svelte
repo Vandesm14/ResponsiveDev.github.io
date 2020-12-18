@@ -6,20 +6,16 @@
 
 	let header = {
 		title: 'The Responsive Podcast',
-		button: 'View Episodes',
-		href: 'https://anchor.fm/responsive'
+		button: {
+			title: 'Episodes',
+			href: 'https://anchor.fm/responsive',
+			icon: '/social/anchor.png',
+			blank: true
+		}
 	};
 </script>
 
 <style>
-img {
-	display: block;
-  height: calc(1.2rem + 18px);
-  border-radius: 1000px;
-  text-decoration: none;
-	transition: 150ms ease-out;
-	margin-right: 6px;
-}
 </style>
 
 <Navbar />
@@ -27,16 +23,11 @@ img {
 	Two guys talk with the community about all things tech; from frameworks to tech pop-tarts, we've got you covered.
 </Header>
 <Article>
-	<Button href="https://twitch.tv/Responsive">
-		<img src="/social/twitch.png" alt="twitch">
-		<span>Twitch</span>
-	</Button>
-	<Button href="https://twitter.com/Respdev">
-		<img src="/social/twitter.png" alt="twitter">
-		<span>Twitter</span>
-	</Button>
-	<Button href="https://discord.io/Responsive">
-		<img src="/social/discord.png" alt="twitch">
-		<span>Discord</span>
-	</Button>
+	The Responsive Podcast is a podcast that releases eposides at least two times a week with each episode being an hour and a half long. We enjoy sharing tips, tricks, and tools for everything development. Leon and I are widely open to feedback, so even simple suggestion such as to turn up one of our mics, please feel free to ask! At the bottom of this page, you will find the various ways to contact us.
+</Article>
+<Article title={'Social Links'}>
+	<Button href="https://twitch.tv/Responsive" icon="/social/twitch.png">Twitch</Button>
+	<Button href="https://twitter.com/Respdev" icon="/social/twitter.png">Twitter</Button>
+	<Button href="https://discord.io/Responsive" icon="/social/discord.png">Discord</Button>
+	<Button href="mailto:responsivedev@pm.me" icon="/social/email.png">Email</Button>
 </Article>

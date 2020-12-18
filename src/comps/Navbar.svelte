@@ -53,7 +53,7 @@ img {
 </svelte:head>
 
 <div class="navbar">
-	<a href="/"><img src="/fav.png" alt="Logo"></a>
+	<!-- <a href="/"><img src="/fav.png" alt="Logo"></a> -->
 	<Button href="/">Home</Button>
 	<Button href="/podcast">Podcast</Button>
 	<Button href="/events">Events</Button>

@@ -4,7 +4,12 @@
 	import Article from './comps/Article.svelte';
 
 	let header = {
-		title: 'Welcome to Responsive!'
+		title: 'Welcome to Responsive!',
+		button: {
+			href: 'https://discord.io/Responsive',
+			title: 'Join Us',
+			icon: '/social/discord.png'
+		}
 	};
 	let about = {
 		title: 'About Us'
