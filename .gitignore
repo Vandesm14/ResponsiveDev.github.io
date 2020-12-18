@@ -2,3 +2,6 @@
 /public/build/
 
 .DS_Store
+
+public/assets/*
+!public/assets/global.css
