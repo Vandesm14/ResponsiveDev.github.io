@@ -33,7 +33,8 @@ function serve() {
 
 let pages = [
   "home",
-  "events"
+	"events",
+	"podcast"
 ];
 
 let exports = [];

@@ -4,6 +4,10 @@
 
 <style>
 a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
   margin: 10px;
   padding: 6px 12px;
   width: max-content;

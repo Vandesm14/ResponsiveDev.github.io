@@ -15,7 +15,7 @@ div {
   padding: 0 10vw;
   background-color: #212121;
   color: #fafafa;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 div > * {
@@ -28,6 +28,10 @@ div > *:empty {
 
 h1 {
   margin-bottom: 0;
+}
+
+p {
+	line-height: 2.2rem;
 }
 </style>
 

@@ -26,6 +26,10 @@ div > * {
 div > *:empty {
   display: none;
 }
+
+p {
+	line-height: 2.2rem;
+}
 </style>
 
 <div class="header">
