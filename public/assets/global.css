@@ -26,5 +26,6 @@ div, h1, p {
 }
 
 a, a:visited {
-	color: #0097dd;
+	/* color: #0097dd; */
+	color: #8370c9;
 }
