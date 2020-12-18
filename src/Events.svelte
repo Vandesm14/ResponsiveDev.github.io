@@ -1,5 +1,6 @@
 <script>
   import Event from "./comps/Event.svelte";
+  import Navbar from "./comps/Navbar.svelte";
 </script>
 
 <style>
@@ -21,6 +22,8 @@
     color: #ffffff;
   }
 </style>
+
+<Navbar/>
 
 <main>
   <p>Coming Soon...</p>
