@@ -1,8 +1,5 @@
-import App from "./Events.svelte";
+import Events from "./Events.svelte";
 
-const app = new App({
-	target: document.body,
-	props: {}
-});
+const app = new Events({ target: document.body });
 
 export default app;
