@@ -14,7 +14,10 @@ body {
 	flex-direction: column;
 	background-color: white;
 	color: black;
-	font-family: Calibri, sans-serif;
+}
+
+:root {
+	font-family: "Inter", sans-serif;
 }
 
 div, h1, p {
