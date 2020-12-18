@@ -13,7 +13,8 @@ div {
   justify-content: center;
   padding: 0 10vw;
   height: 70vh;
-  color: black;
+	color: white;
+	background-color: #212121;
   font-size: 1.4rem;
 }
 
