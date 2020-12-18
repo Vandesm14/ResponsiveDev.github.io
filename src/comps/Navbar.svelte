@@ -1,3 +1,7 @@
+<script>
+	import Button from './Button.svelte';
+</script>
+
 <style>
 div {
   z-index: 1;
@@ -9,26 +13,11 @@ div {
   background-color: #5a507e;
   color: white;
   text-align: center;
-  font-size: 1.3rem;
-}
-
-a {
-  margin: 10px;
-  padding: 6px 14px;
-  width: max-content;
-  border-radius: 1000px;
-  background-color: white;
-  color: #5a507e;
-  text-decoration: none;
-  transition: 150ms ease-out;
-}
-a:hover {
-  box-shadow: 0 4px 20px #00000044;
-  transform: scale(1.1);
+  font-size: 1.2rem;
 }
 </style>
 
 <div class="navbar">
-	<a href="/">Home</a>
-	<a href="/events">Events</a>
+	<Button href="/">Home</Button>
+	<Button href="/events">Events</Button>
 </div>
