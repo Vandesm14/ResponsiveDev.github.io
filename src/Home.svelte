@@ -1,4 +1,5 @@
 <script>
+	import Navbar from './comps/Navbar.svelte';
 	import Header from './comps/Header.svelte';
 	import Article from './comps/Article.svelte';
 
@@ -14,6 +15,7 @@
 	};
 </script>
 
+<Navbar />
 <Header {...header}>
 	Two guys talk with the community about all things tech; from frameworks to tech pop-tarts, we've got you covered.
 </Header>

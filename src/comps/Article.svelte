@@ -14,7 +14,7 @@ div {
   padding: 0 10vw;
   height: 70vh;
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 div > * {
@@ -22,11 +22,11 @@ div > * {
 }
 
 div > *:empty {
-	display: none;
+  display: none;
 }
 
 h1 {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 a {

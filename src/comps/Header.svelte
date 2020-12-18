@@ -11,8 +11,7 @@ div {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0 10vw;
-  height: 70vh;
+  padding: 4vh 10vw;
   background-color: #5a507e;
   color: white;
   text-align: center;
